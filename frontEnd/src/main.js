@@ -135,7 +135,6 @@ attackBtn.addEventListener("click", function () {
 
   if (actualTurn === true && hero.isDead() === false && canAttack === true) {
     canAttack = false;
-
     changeColorSpecial();
     if (actualEnemy === null || actualEnemy === undefined) {
     } else {
@@ -296,7 +295,6 @@ function changeArrowDirection(direction = "") {
  * *
  */
 function newRound() {
-
   let rand = randomNumber();
   rand = 49;
   if (rand <= 50) {
